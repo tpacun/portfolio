@@ -808,7 +808,8 @@ button,
   #signup-form input[type="text"],
   #signup-form input[type="password"],
   #signup-form input[type="email"] {
-    width: 18em; }
+    width: 20em;
+    margin: 1px; }
   #signup-form > * {
     margin: 0 0 0 1em; }
   #signup-form > :first-child {
@@ -848,7 +849,7 @@ button,
   #footer .icons {
     margin: 0 0 0.5em 0; }
   #footer .copyright {
-    font-size: 0.8em;
+    font-size: 1.25em;
     list-style: none;
     padding: 0; }
     #footer .copyright li {

@@ -11,23 +11,26 @@
 		<!-- Header -->
 			<header id="header">
 				<h1>Under construction...</h1>
-				<p>Thanks for visiting! Check back in a bit, we'll be back up soon...</p>
+				<p>Thanks for visiting! If you need or would like to get in touch with me, please feel free to send me a message below. Otherwise, check back in a bit, we'll be back up soon...</p>
 			</header>
 
 		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="#">
-				<input type="email" name="email" id="email" placeholder="Email Address" />
-				<input type="submit" value="Sign Up" />
+
+			<form id="signup-form" name="send-message" method="post" data-netlify="true">
+				<div class="fields">
+					<div class="field half"><input type="text" name="name" id="name" placeholder="Name" /></div>
+					<div class="field half"><input type="email" name="email" id="email" placeholder="Email" /></div>
+					<div class="field"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+				</div>
+				<input type="submit" value="Send Message" />
 			</form>
 
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/theopacun/" class="icon brands fa-linkedin"><span class="label">GitHub</span></a></li>
 					<li><a href="https://github.com/tpacun" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="mailto:tpacun@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Theo Pacun</li>
+					<li class="copyright">&copy; Theo Pacun</li>
 				</ul>
 			</footer>
 
